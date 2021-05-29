@@ -18,6 +18,7 @@
 		D26D2E1226613E4E00447ABF /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D2E1126613E4E00447ABF /* Article.swift */; };
 		D26D2E1426613EC600447ABF /* ArticleListAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D2E1326613EC600447ABF /* ArticleListAPIClientProtocol.swift */; };
 		D26D2E1626619B7200447ABF /* ArticleListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D2E1526619B7200447ABF /* ArticleListAPIClient.swift */; };
+		D2F54FB02661DDE400A6D965 /* ArticleListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F54FAF2661DDE400A6D965 /* ArticleListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D26D2E1126613E4E00447ABF /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		D26D2E1326613EC600447ABF /* ArticleListAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClientProtocol.swift; sourceTree = "<group>"; };
 		D26D2E1526619B7200447ABF /* ArticleListAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClient.swift; sourceTree = "<group>"; };
+		D2F54FAF2661DDE400A6D965 /* ArticleListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				D26D2E1126613E4E00447ABF /* Article.swift */,
 				D26D2E1326613EC600447ABF /* ArticleListAPIClientProtocol.swift */,
 				D26D2E1526619B7200447ABF /* ArticleListAPIClient.swift */,
+				D2F54FAF2661DDE400A6D965 /* ArticleListCell.swift */,
 			);
 			path = QiitaClients;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				D26D2E1226613E4E00447ABF /* Article.swift in Sources */,
 				D2536B002660FC3B004475BE /* AppDelegate.swift in Sources */,
 				D26D2E0C26612A5600447ABF /* ArticleListViewController.swift in Sources */,
+				D2F54FB02661DDE400A6D965 /* ArticleListCell.swift in Sources */,
 				D2536B022660FC3B004475BE /* SceneDelegate.swift in Sources */,
 				D26D2E1626619B7200447ABF /* ArticleListAPIClient.swift in Sources */,
 				D26D2E1426613EC600447ABF /* ArticleListAPIClientProtocol.swift in Sources */,
