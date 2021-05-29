@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		D2536B002660FC3B004475BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2536AFF2660FC3B004475BE /* AppDelegate.swift */; };
 		D2536B022660FC3B004475BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2536B012660FC3B004475BE /* SceneDelegate.swift */; };
-		D2536B042660FC3B004475BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2536B032660FC3B004475BE /* ViewController.swift */; };
-		D2536B072660FC3B004475BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2536B052660FC3B004475BE /* Main.storyboard */; };
 		D2536B092660FC3B004475BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2536B082660FC3B004475BE /* Assets.xcassets */; };
 		D2536B0C2660FC3B004475BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2536B0A2660FC3B004475BE /* LaunchScreen.storyboard */; };
 		D2536B172660FC3C004475BE /* TDDSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2536B162660FC3C004475BE /* TDDSampleTests.swift */; };
 		D2536B222660FC3C004475BE /* TDDSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2536B212660FC3C004475BE /* TDDSampleUITests.swift */; };
+		D26D2E0C26612A5600447ABF /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D2E0B26612A5600447ABF /* ArticleListViewController.swift */; };
+		D26D2E102661305A00447ABF /* ArticleListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D2E0F2661305A00447ABF /* ArticleListViewControllerTests.swift */; };
+		D26D2E1226613E4E00447ABF /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D2E1126613E4E00447ABF /* Article.swift */; };
+		D26D2E1426613EC600447ABF /* ArticleListAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D2E1326613EC600447ABF /* ArticleListAPIClientProtocol.swift */; };
+		D26D2E1626619B7200447ABF /* ArticleListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D2E1526619B7200447ABF /* ArticleListAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,6 @@
 		D2536AFC2660FC3B004475BE /* TDDSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2536AFF2660FC3B004475BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2536B012660FC3B004475BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2536B032660FC3B004475BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2536B062660FC3B004475BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2536B082660FC3B004475BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2536B0B2660FC3B004475BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2536B0D2660FC3B004475BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		D2536B1D2660FC3C004475BE /* TDDSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2536B212660FC3C004475BE /* TDDSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSampleUITests.swift; sourceTree = "<group>"; };
 		D2536B232660FC3C004475BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26D2E0B26612A5600447ABF /* ArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
+		D26D2E0F2661305A00447ABF /* ArticleListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewControllerTests.swift; sourceTree = "<group>"; };
+		D26D2E1126613E4E00447ABF /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		D26D2E1326613EC600447ABF /* ArticleListAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClientProtocol.swift; sourceTree = "<group>"; };
+		D26D2E1526619B7200447ABF /* ArticleListAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,11 @@
 			children = (
 				D2536AFF2660FC3B004475BE /* AppDelegate.swift */,
 				D2536B012660FC3B004475BE /* SceneDelegate.swift */,
-				D2536B032660FC3B004475BE /* ViewController.swift */,
-				D2536B052660FC3B004475BE /* Main.storyboard */,
 				D2536B082660FC3B004475BE /* Assets.xcassets */,
 				D2536B0A2660FC3B004475BE /* LaunchScreen.storyboard */,
 				D2536B0D2660FC3B004475BE /* Info.plist */,
+				D26D2E0E2661301900447ABF /* QiitaClients */,
+				D26D2E0D26612FFE00447ABF /* QiitaClientsTests */,
 			);
 			path = TDDSample;
 			sourceTree = "<group>";
@@ -126,6 +132,25 @@
 				D2536B232660FC3C004475BE /* Info.plist */,
 			);
 			path = TDDSampleUITests;
+			sourceTree = "<group>";
+		};
+		D26D2E0D26612FFE00447ABF /* QiitaClientsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D26D2E0F2661305A00447ABF /* ArticleListViewControllerTests.swift */,
+			);
+			path = QiitaClientsTests;
+			sourceTree = "<group>";
+		};
+		D26D2E0E2661301900447ABF /* QiitaClients */ = {
+			isa = PBXGroup;
+			children = (
+				D26D2E0B26612A5600447ABF /* ArticleListViewController.swift */,
+				D26D2E1126613E4E00447ABF /* Article.swift */,
+				D26D2E1326613EC600447ABF /* ArticleListAPIClientProtocol.swift */,
+				D26D2E1526619B7200447ABF /* ArticleListAPIClient.swift */,
+			);
+			path = QiitaClients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +258,6 @@
 			files = (
 				D2536B0C2660FC3B004475BE /* LaunchScreen.storyboard in Resources */,
 				D2536B092660FC3B004475BE /* Assets.xcassets in Resources */,
-				D2536B072660FC3B004475BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2536B042660FC3B004475BE /* ViewController.swift in Sources */,
+				D26D2E1226613E4E00447ABF /* Article.swift in Sources */,
 				D2536B002660FC3B004475BE /* AppDelegate.swift in Sources */,
+				D26D2E0C26612A5600447ABF /* ArticleListViewController.swift in Sources */,
 				D2536B022660FC3B004475BE /* SceneDelegate.swift in Sources */,
+				D26D2E1626619B7200447ABF /* ArticleListAPIClient.swift in Sources */,
+				D26D2E1426613EC600447ABF /* ArticleListAPIClientProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2536B172660FC3C004475BE /* TDDSampleTests.swift in Sources */,
+				D26D2E102661305A00447ABF /* ArticleListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2536B052660FC3B004475BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2536B062660FC3B004475BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2536B0A2660FC3B004475BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
